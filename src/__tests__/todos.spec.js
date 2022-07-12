@@ -8,7 +8,7 @@ describe('Todos', () => {
     const userResponse = await request(app)
       .post('/users')
       .send({
-        name: 'John Doe',
+        name: 'Diogo Gomes Marinho',
         username: 'user1'
       });
 
